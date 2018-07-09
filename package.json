@@ -1,0 +1,31 @@
+{
+  "name": "responsive-web-layout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive web layout",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --output-style compressed scss/styles.scss > css/styles.css",
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssokurenko/responsive-web-layout.git"
+  },
+  "keywords": [
+    "layout",
+    "web",
+    "css",
+    "github"
+  ],
+  "author": "Sergey Sokurenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssokurenko/responsive-web-layout/issues"
+  },
+  "homepage": "https://github.com/ssokurenko/responsive-web-layout#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
